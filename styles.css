@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    font-family: 'Indie Flower', cursive;
+    /* Change the font-family to the desired font */
+    font-size: 20px;
+    /* Set the font size as needed */
+    font-weight: bold;
+    /* Optionally set font weight */
+    color: #fdf1f1;
+    margin-left: 20px;
+    /* Optionally set font color */
+    /* Add any other desired styles */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 70px;
+}
+
+nav li {
+    margin-right: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.cart {
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+main {
+    padding: 2rem;
+}
+
+.hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.product {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    margin-bottom: 5px;
+    height: 300px;
+    width: 100%;
+}
+
+.product h3 {
+    font-size: 1.5rem;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 0.5rem;
+}
+
+.product .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.product button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
